@@ -1,0 +1,47 @@
+* node size
+  Ranking > Degree
+
+  min size 7.5 (adj to 5 to further separate zero degree nodes?)
+  max size 25
+* layout
+  Yifan Hu Proportional
+
+  retry (using random layout in between) until looks nice
+* node color
+  Partition > gender
+
+  M is Biden
+  F is Obama
+  NA will be TheMenNavy
+* edge color
+  Partition > edgetype
+
+  Friendship is Gaga
+* PREVIEW
+  - node
+    border color is TheMenCharcoal
+  - edge
+    Thickness is 3.0
+    Color is original
+    Curved
+* PALETTE
+inauguration <- list(
+    ## https://github.com/ciannabp/inauguration
+    ## I am using the first palette, with women only
+    Harris = "#5445b1",
+    Biden = "#749dae",
+    Klobuchar = "#f3c483",
+    Obama = "#5c1a33",
+    Gaga = "#cd3341",
+    Gorman = "#f7dc6a",
+    TheMenCharcoal = "#16161e", # this one is mine
+    TheMenNavy = "#474d5f" # and so is this one
+)
+* file handling
+  export from Gephi as SVG
+  Save from Inkscape as Inkscape SVG, then "save a copy" to produce a PDF
+* inkscape notes
+  center x = 0.232
+  dy = 0.178
+  
+  fig size should be x = 6.5, y = 6
